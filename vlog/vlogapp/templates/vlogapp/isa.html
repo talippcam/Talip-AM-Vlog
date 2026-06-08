@@ -1,0 +1,134 @@
+{%extends "base.html"%}
+
+{% block content%}
+{% load static %}
+
+<h1 class="text-center">İsa Can</h1>
+
+<div id="tekceCarousel" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img 
+        src="{% static 'images/isa1.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Talip fotograf 1"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/isa2.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Talip Fotograf  2"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/isa3.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 3"
+      >
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#tekceCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#tekceCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+<div class="container mt-5 isa-biyografi">
+  <h1 class="text-center fw-bold mb-4">
+    İsa Can - Kaosun Sessiz Mühendisi
+  </h1>
+
+  <p>
+    İsa Can'ın normal bir insan olduğu iddia edilse de bu teori henüz
+    kanıtlanamamıştır.
+  </p>
+
+  <p>
+    Küçük yaşlardan itibaren sıra dışı yetenekler göstermiştir. Bir
+    keresinde odasına kalem almaya girmiş, ancak neden girdiğini unutup
+    40 dakika sonra elinde tostla çıkmıştır. Bu olay daha sonra
+    "İsa Can Etkisi" olarak literatüre geçmiştir.
+  </p>
+
+  <p>
+    İsa'nın en büyük özelliği her işe "2 dakikada hallederim" diye
+    başlayıp kendisini 3 saat sonra bambaşka bir konuda araştırma
+    yaparken bulmasıdır.
+  </p>
+
+  <p>Örneğin:</p>
+
+  <ul>
+    <li>Hava durumuna bakmak ister.</li>
+    <li>Nasıl oluştuğunu merak eder.</li>
+    <li>Atmosferi araştırır.</li>
+    <li>Mars'ın iklimini inceler.</li>
+    <li>Kendini NASA'nın sitesinde bulur.</li>
+  </ul>
+
+  <p>
+    Ve hâlâ hava durumuna bakmamıştır.
+  </p>
+
+  <p>
+    Arkadaşları ona: <br>
+    <strong>"İsa, neredesin?"</strong> <br>
+    diye mesaj attığında genellikle şu cevap gelir:
+  </p>
+
+  <blockquote class="blockquote">
+    <p>"Geliyorum."</p>
+  </blockquote>
+
+  <p>
+    Bu mesajın gerçek varış süresi ortalama 47 dakikadır.
+  </p>
+
+  <p>
+    Rivayete göre İsa Can bir gün telefonu sessizdeyken 18 kez telefonunu
+    aramış ve sonunda telefonu cebinde bulmuştur. Olay yerine gelen
+    uzmanlar durumu açıklayamamıştır.
+  </p>
+
+  <p>İsa'nın özel güçleri:</p>
+
+  <ul>
+    <li>Şarjı %80 iken priz aramak.</li>
+    <li>Bir videoyu açıp neden açtığını unutmak.</li>
+    <li>Sabah erken kalkmaya karar verip alarmı ikna ederek tekrar uyumak.</li>
+    <li>"Son bölüm" diyerek diziye başlayıp sezonu bitirmek.</li>
+  </ul>
+
+  <p>
+    Bilim insanları hâlâ İsa Can'ın beyninin çalışma prensibini çözmeye
+    çalışmaktadır. Ancak yapılan tüm deneyler şu sonuçla bitmiştir:
+  </p>
+
+  <blockquote class="blockquote">
+    <p>
+      "Denek mantıklı başladı ama konu yine yemek siparişlerine geldi."
+    </p>
+  </blockquote>
+
+  <p>
+    Bugün İsa Can hayatına devam etmekte, evrene küçük miktarlarda kaos
+    yaymakta ve "5 dakika sonra çıkıyorum" cümlesinin anlamını yeniden
+    tanımlamaktadır.
+  </p>
+</div>
+{%endblock%}

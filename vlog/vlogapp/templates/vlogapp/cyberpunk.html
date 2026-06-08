@@ -1,0 +1,96 @@
+{%extends "base.html"%}
+{% block content%}
+{% load static %}
+
+<div class="container mt-5">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <img 
+        src="{% static 'images/cyberpunk.jpg' %}" 
+        class="img-fluid foto-kutu" 
+        alt="Resim 1"
+      >
+    </div>
+
+    <div class="col-md-4">
+      <img 
+        src="{% static 'images/cyberpunk1.jpg' %}" 
+        class="img-fluid foto-kutu" 
+        alt="Resim 2"
+      >
+    </div>
+
+    <div class="col-md-4">
+      <img 
+        src="{% static 'images/cyberpunk2.jpg' %}" 
+        class="img-fluid foto-kutu" 
+        alt="Resim 3"
+      >
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container mt-5 cyberpunk-yazi">
+  <h1 class="text-center fw-bold mb-4">
+    Cyberpunk 2077
+  </h1>
+
+  <p>
+    Cyberpunk 2077, CD Projekt Red tarafından geliştirilen açık dünya bir
+    aksiyon-RPG oyunudur. Oyun, mega şirketlerin büyük güç sahibi olduğu
+    distopik bir gelecekte, Night City adlı şehirde geçer.
+  </p>
+
+  <h2 class="fw-bold mt-4">Hikâye</h2>
+
+  <p>
+    Oyunda V adlı paralı askeri kontrol edersin. Bir görev sırasında
+    beynine, ölmüş rock yıldızı ve terörist olarak görülen Johnny
+    Silverhand'in dijital bilinci yüklenir. Johnny'nin kişiliği zamanla
+    V'nin zihnini ele geçirmeye başlar ve oyunun ana konusu bunun etrafında
+    şekillenir.
+  </p>
+
+  <h2 class="fw-bold mt-4">Oynanış</h2>
+
+  <ul>
+    <li>Açık dünya keşfi</li>
+    <li>Silahlı çatışmalar</li>
+    <li>Yakın dövüş</li>
+    <li>Hackleme yani Netrunner oynanışı</li>
+    <li>Karakter geliştirme ve yetenek ağaçları</li>
+    <li>Araç kullanımı</li>
+    <li>Hikâyeyi etkileyen seçimler</li>
+  </ul>
+
+  <h2 class="fw-bold mt-4">Phantom Liberty</h2>
+
+  <p>
+    2023'te çıkan genişleme paketi Cyberpunk 2077: Phantom Liberty, oyuna
+    yeni bir bölge olan Dogtown'u ve yeni bir casusluk hikâyesini ekledi.
+    Birçok oyuncuya göre bu genişleme oyunun en güçlü hikâye içeriklerinden
+    biridir.
+  </p>
+
+  <h2 class="fw-bold mt-4">Neden Seviliyor?</h2>
+
+  <ul>
+    <li>Çok etkileyici şehir tasarımı</li>
+    <li>Güçlü ana hikâye</li>
+    <li>Johnny Silverhand karakteri</li>
+    <li>Derin karakter geliştirme sistemi</li>
+    <li>Güncellemeler sonrası oldukça iyileşen performans</li>
+  </ul>
+
+  <p>
+    Eğer dizileri seviyorsan, oyunun evreninde geçen
+    <strong>Cyberpunk: Edgerunners</strong> animesini de izlemeni öneririm.
+    Birçok oyuncu için anime ve oyun birlikte çok daha etkileyici bir
+    deneyim sunuyor.
+  </p>
+</div>
+
+{%endblock%}

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+  <h1 style="color: rgb(0, 10, 10);" class="text-center mb-4">Arkadaşlarım</h1>
+
+  <div class="row">
+
+    <div class="col-md-4 text-center ">
+      <a href="{% url 'vlogapp:tekce' %}">
+        <img 
+          src="{% static 'images/tekce.jpg' %}" 
+          class="img-fluid rounded"
+          style="height: 300px; object-fit: cover;"
+          alt="Tekce'nin fotoğrafı"
+        >
+      </a>
+      <h3 style="color: rgb(1, 15, 15);" class=" tekce mt-3">Tayyip TEKCE</h3>
+    </div>
+
+    <div class="col-md-4 text-center">
+      <a href="{% url 'vlogapp:omar' %}">
+        <img 
+          src="{% static 'images/OMAR.jpg' %}" 
+          class="img-fluid rounded"
+          style="height: 300px; object-fit: cover;"
+          alt="Omar'ın fotoğrafı"
+        >
+      </a>
+      <h3 style="color: rgb(0, 12, 12);" class=" tekce mt-3">Ömer ERDOĞAN</h3>
+    </div>
+
+    <div class="col-md-4 text-center">
+      <a href="{% url 'vlogapp:talip' %}">
+        <img 
+          src="{% static 'images/talip.jpg' %}" 
+          class="img-fluid rounded"
+          style="height: 300px; object-fit: cover;"
+          alt="Talip'in fotoğrafı"
+        >
+      </a>
+      <h3  style="color: rgb(4, 4, 4);" class=" tekce mt-3" >Talip ÇAM</h3>
+    </div>
+
+
+
+        <div class="col-md-4 text-center">
+      <a href="{% url 'vlogapp:isa' %}">
+        <img 
+          src="{% static 'images/isa.jpg' %}" 
+          class="img-fluid rounded"
+          style="height: 300px; object-fit: cover;"
+          alt="Talip'in fotoğrafı"
+        >
+      </a>
+      <h3 style="color: rgb(5, 5, 5);" class=" tekce mt-3" >İsa CAN</h3>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
+
+

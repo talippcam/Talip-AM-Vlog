@@ -1,0 +1,42 @@
+{%extends "base.html"%}
+
+{% block content%}
+{% load static %}
+
+<div class="container mt-5">
+  <div class="row g-4 justify-content-center">
+
+    <div class="col-md-4">
+      <div class="card h-100 mx-auto" style="max-width: 320px;">
+        <img src="{% static 'images/su.jpg' %}" class="card-img-top" alt="Cyberpunk 2077">
+        <div class="card-body">
+          <h5 class="card-title">Suyun Önemi</h5>
+          <a href="{% url 'vlogapp:suyunonemi' %}" class="btn btn-danger">Buraya Tıklayın</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 mx-auto" style="max-width: 320px;">
+        <img src="{% static 'images/teknoloji.jpg' %}" class="card-img-top" alt="Dizi ve Filmler">
+        <div class="card-body">
+          <h5 class="card-title">Teknoloji</h5>
+          <a href="{% url 'vlogapp:teknoloji' %}" class="btn btn-danger">Buraya Tıklayın</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 mx-auto" style="max-width: 320px;">
+        <img src="{% static 'images/kitap.jpg' %}" class="card-img-top" alt="Kitap">
+        <div class="card-body">
+          <h5 class="card-title">Kitap Okumanın Gücü</h5>
+          <a href="{% url 'vlogapp:kitap' %}" class="btn btn-danger">Buraya Tıklayın</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{%endblock%}

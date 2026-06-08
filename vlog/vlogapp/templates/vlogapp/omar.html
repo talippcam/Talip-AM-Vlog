@@ -1,0 +1,118 @@
+{%extends "base.html"%}
+
+{% block content%}
+{% load static %}
+
+<h1 class="text-center">Omar ERDOGAN</h1>
+
+<div id="tekceCarousel" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img 
+        src="{% static 'images/omar1.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 1"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/omar2.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 2"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/omar3.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 3"
+      >
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#tekceCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#tekceCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container mt-5 omar-biyografi">
+  <h1 class="text-center fw-bold mb-4">
+    Ömer Erdoğan Kimdir?
+  </h1>
+
+  <p>
+    Galaksiler Arası Komutan Ömer Erdoğan'ın M.Ö. 3000 yılında mı,
+    yoksa gelecek hafta mı doğduğu tam olarak bilinmemektedir. Ömer
+    Erdoğan, evrenin en gizemli varlıklarından biridir.
+  </p>
+
+  <p>
+    Bazı teorilere göre insan, bazı teorilere göre ise çayla çalışan
+    gelişmiş bir yaşam formudur. Ömer henüz 3 yaşındayken televizyon
+    kumandasını kaybetmiş ve onu bulmak için başlattığı operasyon
+    sonucunda yanlışlıkla üç galaksi keşfetmiştir.
+  </p>
+
+  <p>
+    Bu olay sonrasında Birleşmiş Gezegenler Konseyi tarafından
+    "Geçici Kumanda Bakanı" ilan edilmiştir. Ömer'in en büyük düşmanı
+    zaman kavramıdır. Bir görevi 5 dakikada bitireceğini söyler ve
+    ardından kendisini 4 saat sonra YouTube'da "Penguenler neden
+    kaymaz?" videosu izlerken bulur.
+  </p>
+
+  <p>
+    Bilim insanları onun beynini incelemek istemiş ancak Ömer'in düşünce
+    hızı nedeniyle cihazlar mavi ekran vermiştir. Hatta bir araştırma
+    sırasında bilgisayar ekranında sadece şu hata mesajı görülmüştür:
+  </p>
+
+  <blockquote class="blockquote">
+    <p>"Error 404: Ömer'in mantığı bulunamadı."</p>
+  </blockquote>
+
+  <p>
+    Galaksiler Arası Çay Savaşları sırasında Ömer tek başına 17 uzay
+    istasyonuna çay dağıtmış, bunun karşılığında kendisine
+    "Çaylord Supreme" unvanı verilmiştir.
+  </p>
+
+  <p>Ömer'in özel güçleri arasında şunlar bulunmaktadır:</p>
+
+  <ul>
+    <li>Telefonu elinde olduğu halde 15 dakika boyunca telefonunu aramak.</li>
+    <li>Aç olmadığı halde mutfağa gidip geri dönerken bir şeyler yemek.</li>
+    <li>"Hemen geliyorum" dedikten sonra uzay-zamanı bükerek 45 dakika kaybolmak.</li>
+    <li>Bir dosyayı masaüstüne kaydedip sonsuza kadar bulamamak.</li>
+  </ul>
+
+  <p>
+    Rivayete göre Ömer bir gün tüm çoraplarını eşleştirmeyi başarmış ve
+    bu olay evrende kısa süreliğine denge yaratmıştır. Ancak ertesi gün
+    bir tanesi tekrar kaybolmuştur.
+  </p>
+
+  <p>
+    Bugün Ömer Erdoğan hâlâ evrenin bir yerlerinde yaşamaktadır. Son
+    raporlara göre bir görevi yapmak için bilgisayarın başına oturmuş,
+    ancak kendisini iki saat sonra uzaylıların neden vergi ödemediğini
+    araştırırken bulmuştur.
+  </p>
+
+  <p>
+    Eğer bir gün gökyüzünde parlak bir ışık görürseniz korkmayın. Büyük
+    ihtimalle Ömer yine telefonunun fenerini açık unutmuştur.
+  </p>
+</div>
+{%endblock%}

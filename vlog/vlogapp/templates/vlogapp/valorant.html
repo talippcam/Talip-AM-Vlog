@@ -1,0 +1,105 @@
+{%extends "base.html"%}
+
+{% block content%}
+{% load static %}
+
+<div class="container mt-5">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <img 
+        src="{% static 'images/valorant.jpg' %}" 
+        class="img-fluid foto-kutu" 
+        alt="Resim 1"
+      >
+    </div>
+
+    <div class="col-md-4">
+      <img 
+        src="{% static 'images/valorant1.jpg' %}" 
+        class="img-fluid foto-kutu" 
+        alt="Resim 2"
+      >
+    </div>
+
+    <div class="col-md-4">
+      <img 
+        src="{% static 'images/valorant2.jpg' %}" 
+        class="img-fluid foto-kutu" 
+        alt="Resim 3"
+      >
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="container mt-5 valorant-yazi">
+  <h1 class="text-center fw-bold mb-4">
+    Valorant
+  </h1>
+
+  <p>
+    Valorant, taktiksel nişancılık ile kahraman yani ajan yeteneklerini
+    birleştiren popüler bir FPS oyunudur. Oyun 2020 yılında çıkmıştır ve
+    geliştiricisi Riot Games'tir.
+  </p>
+
+  <h2 class="fw-bold mt-4">Oynanış</h2>
+
+  <p>Valorant'ta iki takım bulunur:</p>
+
+  <ul>
+    <li>
+      <strong>Saldıranlar (Attackers):</strong>
+      Spike adlı bombayı kurmaya çalışır.
+    </li>
+    <li>
+      <strong>Savunanlar (Defenders):</strong>
+      Spike'ın kurulmasını engeller veya etkisiz hale getirir.
+    </li>
+  </ul>
+
+  <p>
+    Her maç genellikle 5'e 5 oynanır ve kazanmak için 13 raunta ulaşmak
+    gerekir.
+  </p>
+
+  <h2 class="fw-bold mt-4">Ajanlar (Agents)</h2>
+
+  <p>
+    Her ajanın kendine özgü yetenekleri vardır. Popüler ajanlardan bazıları:
+  </p>
+
+  <ul>
+    <li><strong>Jett:</strong> Hızlı hareket ve çeviklik.</li>
+    <li><strong>Reyna:</strong> Rakipleri öldürdükçe güçlenir.</li>
+    <li><strong>Sova:</strong> Bilgi toplama uzmanı.</li>
+    <li><strong>Omen:</strong> Işınlanma ve sis yetenekleri.</li>
+    <li><strong>Cypher:</strong> Tuzaklar ve gözetleme.</li>
+  </ul>
+
+  <h2 class="fw-bold mt-4">Haritalar</h2>
+
+  <p>Oyundaki popüler haritalar:</p>
+
+  <ul>
+    <li>Ascent</li>
+    <li>Bind</li>
+    <li>Haven</li>
+    <li>Lotus</li>
+  </ul>
+
+  <h2 class="fw-bold mt-4">Silahlar</h2>
+
+  <p>En çok kullanılan silahlar:</p>
+
+  <ul>
+    <li><strong>Vandal:</strong> Tek kafa vuruşunda öldürebilir.</li>
+    <li><strong>Phantom:</strong> Daha sessiz ve kontrollü.</li>
+    <li><strong>Operator:</strong> Keskin nişancı tüfeği.</li>
+    <li><strong>Sheriff:</strong> Güçlü tabanca.</li
+
+
+{%endblock%}

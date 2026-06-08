@@ -1,0 +1,138 @@
+{%extends "base.html"%}
+
+{% block content%}
+{% load static %}
+
+<h1 class="text-center">Talip ÇAM</h1>
+
+<div id="tekceCarousel" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img 
+        src="{% static 'images/talip1.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Talip fotograf 1"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/talip2.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Talip Fotograf  2"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/talip3.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 3"
+      >
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#tekceCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#tekceCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+<div class="container mt-5 talipbiyografi">
+  <h1 class="text-center fw-bold mb-4">
+    Talip Çam - Friendzone'un Son Koruyucusu
+  </h1>
+
+  <p>
+    Talip Çam, dünya üzerinde aşkı arayan milyonlarca insandan biridir.
+    Aradaki fark, aşkın onu bulmamak için sürekli yer değiştirmesidir.
+  </p>
+
+  <p>
+    Küçüklüğünden beri romantik bir ruha sahip olan Talip, bugüne kadar
+    sayısız kıza yazmış, ancak kızların çoğu onu bir insan olarak değil,
+    müşteri hizmetleri temsilcisi olarak görmüştür.
+  </p>
+
+  <p>Talip'in mesaj kutusundaki en sık görülen ifadeler:</p>
+
+  <ul>
+    <li>"Ayyy canımm"</li>
+    <li>"Sen çok iyi birisin."</li>
+    <li>"Ama..."</li>
+    <li>"Seni abi gibi görüyorum."</li>
+  </ul>
+
+  <p>
+    Özellikle son cümle, Talip'in doğal yaşam alanıdır.
+  </p>
+
+  <p>
+    Bir gün Talip'e: <br>
+    <strong>"Kaç kez reddedildin?"</strong> <br>
+    diye sormuşlar.
+  </p>
+
+  <p>
+    Talip hesap makinesini çıkarmış, birkaç dakika işlem yaptıktan sonra:
+    <br>
+    <strong>"Excel dosyasına bakmam lazım."</strong>
+    <br>
+    demiştir.
+  </p>
+
+  <p>
+    Rivayete göre bir kız Talip'e bir kez "Merhaba" yazmış. Talip o kadar
+    şaşırmış ki ekran görüntüsünü alıp arşivlemiş, buluta yüklemiş ve üç
+    farklı diske yedeklemiştir.
+  </p>
+
+  <p>
+    Talip'in aşk hayatı öyle bir seviyeye gelmiştir ki, bazı kızlar onu
+    reddetmeden önce otomatik cevap sistemi kullanmaktadır:
+  </p>
+
+  <blockquote class="blockquote">
+    <p>
+      "Merhaba, ulaştığınız kişi şu anda sizinle ilgilenmemektedir.
+      Lütfen daha sonra tekrar denemeyiniz."
+    </p>
+  </blockquote>
+
+  <p>
+    Bilim insanları Talip'in özgüvenini incelemek istemiştir. Ancak
+    inceleme sonucunda şu rapor yayınlanmıştır:
+  </p>
+
+  <blockquote class="blockquote">
+    <p>
+      "Normal bir insan ilk 10 redden sonra pes eder. Talip ise 11. reddi
+      motivasyon konuşması olarak algılıyor."
+    </p>
+  </blockquote>
+
+  <p>
+    Bugün Talip Çam hâlâ görevine devam etmektedir. Telefonu elinde,
+    umutları yüksek, internet paketi dolu bir şekilde yeni mesajlar
+    göndermektedir.
+  </p>
+
+  <p>
+    Efsaneye göre bir gün bir kız ona "Ben senden hoşlanıyorum." diyecek.
+  </p>
+
+  <p>
+    O gün geldiğinde ise Talip büyük ihtimalle bunun bir dolandırıcılık
+    yöntemi olduğunu düşünüp engelleyecektir.
+  </p>
+</div>
+{%endblock%}

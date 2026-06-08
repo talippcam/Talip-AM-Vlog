@@ -1,0 +1,193 @@
+.tekce{
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.Anasayfadakiisim{font-family: 'Times New Roman', Times, serif;
+              color: black;
+              margin-left: 450px;
+              margin-top: 80;
+            }
+
+.anasayfayani{font-family: 'Times New Roman', Times, serif;
+              font-size: small;}
+
+
+.anasayfacard{margin-left: 200px;
+              margin-top: 200px;
+
+}
+
+.anafayfacizgisi{border: 2px solid black; opacity: 1; width: 80%; margin: 40px auto;}
+
+.talipcamkimdir{margin-left: 200px;
+                margin-bottom: 10px; 
+                font-size: x-large;               
+}
+
+.biyografi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  margin-left: 300;
+}
+
+.talipcamkimdir {
+  color: black;
+}
+
+
+
+
+.anasayfatalipfoto1{width: 300px;
+                   height: auto;
+                   object-fit: cover;
+                   margin-right: 300px;}
+
+.tekce-biyografi {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: cursive;
+}
+
+.omar-biyografi {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: cursive;
+}
+
+.talipbiyografi{  color: black;
+                  font-weight: 500;
+                  line-height: 1.8;
+                  font-size: 18px;
+                  font-family: cursive;}
+
+
+.isa-biyografi {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+.card {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.foto-kutu {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.cyberpunk-yazi{
+  color: rgb(10, 10, 10);
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.icon{margin: 10;
+width: 50px;height: auto;}
+
+
+.godofwar-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+
+.valorant-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+
+.su-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+
+.teknoloji-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.kitap-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.korku-kapani-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.batman-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+
+.arcane-yazi {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}

@@ -1,0 +1,108 @@
+{%extends "base.html"%}
+
+{% block content%}
+{% load static %}
+
+<h1 class="text-center">Tayyip TEKCE</h1>
+
+<div id="tekceCarousel" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img 
+        src="{% static 'images/tekce1.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 1"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/tekce2.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 2"
+      >
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="{% static 'images/tekce3.jpg' %}" 
+        class="d-block mx-auto"
+        style="width: 500px; height: 500px; object-fit: cover;"
+        alt="Tekce fotoğraf 3"
+      >
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#tekceCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#tekceCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+
+<div class="container mt-5 tekce-biyografi">
+  <h1 class="text-center fw-bold mb-4">
+    Tayyip Tekçe Kimdir?
+  </h1>
+
+  <p>
+    Bazı insanlar dünyaya gelir, bazıları ise dünyaya giriş yapar.
+    Tayyip Tekçe ikinci gruptandır. Doğduğu gün doktorlar onun ağlamasını
+    beklerken, o etrafına bakıp "Wi-Fi şifresi nedir?" diye soracakmış
+    gibi bir ifade takınmıştır.
+  </p>
+
+  <p>
+    Küçük yaşlardan itibaren merakıyla dikkat çeken Tayyip, bozulan
+    oyuncakları tamir etmek yerine daha fazla bozarak iç yapısını
+    incelemeyi tercih etmiştir.
+  </p>
+
+  <p>
+    Okul yıllarında öğretmenler ona "Büyüyünce ne olacaksın?" diye
+    sorduğunda, o her yıl farklı cevaplar vermiştir. Astronot, futbolcu,
+    milyarder, yazılımcı ve ara sıra dünya lideri olmak arasında gidip
+    gelmiştir.
+  </p>
+
+  <p>
+    Hayatının önemli bir kısmını "Bu hata neden çıktı?" sorusuna cevap
+    arayarak geçirmiştir. Özellikle bilgisayarlar, onunla zaman zaman dost
+    zaman zaman düşman olmuştur. Bir gün çalışan kodu ertesi gün
+    çalışmadığında, evrendeki adalet sistemini sorguladığı bilinmektedir.
+  </p>
+
+  <p>
+    Tayyip'in en büyük özelliklerinden biri pes etmemesidir. Çünkü pes
+    etmek için önce sorunun ne olduğunu anlamak gerekir. O ise genellikle
+    sorunun ne olduğunu bulmaya çalışırken yeni üç sorun daha keşfeder.
+  </p>
+
+  <p>
+    Boş zamanlarında geleceği planlar, yeni şeyler öğrenir ve bazen de beş
+    dakikalık bir işin neden üç saat sürdüğünü araştırır. Bilim insanları
+    bu olaya hâlâ kesin bir açıklama getirememiştir.
+  </p>
+
+  <p>
+    Bugün hâlâ aktif olarak yaşamına devam eden Tayyip Tekçe, kahvesi
+    bitene kadar çalışabilen, internet yavaşlayınca moral seviyesi düşen ve
+    "Bir bakayım" diyerek başladığı işlerde saatlerin nasıl geçtiğini
+    anlamayan nadir insan türlerinden biridir.
+  </p>
+
+  <p>
+    Efsaneye göre bir gün tüm projeleri ilk denemede hatasız çalışacaktır.
+    Ancak bilim dünyası bu ihtimali hâlâ araştırmaktadır.
+  </p>
+</div>
+{%endblock%}

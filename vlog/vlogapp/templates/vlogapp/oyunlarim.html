@@ -1,0 +1,44 @@
+{%extends "base.html"%}
+
+{% block content%}
+{% load static %}
+<div class="container mt-5">
+  <div class="row justify-content-center g-4">
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="{% static 'images/oyun.jpg' %}" class="card-img-top" alt="Sevdiğim oyunlar">
+        <div class="card-body">
+          <h5 class="card-title">Cyberpunk 2077</h5>
+          <a href="{% url 'vlogapp:cyberpunk' %}" class="btn btn-danger">Buraya Tıklayın</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="{% static 'images/godofwar.jpg' %}" class="card-img-top" alt="Dizi ve filmler">
+        <div class="card-body">
+          <h5 class="card-title">God Of War</h5>
+          <a href="{% url 'vlogapp:godofwar' %}" class="btn btn-danger">Buraya Tıklayın</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="{% static 'images/valorant.jpg' %}" class="card-img-top" alt="Dizi ve filmler">
+        <div class="card-body">
+          <h5 class="card-title">Valorant</h5>
+          <a href="{% url 'vlogapp:valorant' %}" class="btn btn-danger">Buraya Tıklayın</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+{%endblock%}
