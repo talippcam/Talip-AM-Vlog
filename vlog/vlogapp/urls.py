@@ -7,7 +7,7 @@ app_name= 'vlogapp'
 
 urlpatterns = [
     path('arkadaslar/',views.arkadaşlar, name="arkadaslar"),
-    path('anasayfa/',views.anasayfa, name="anasayfa"),
+    path('',views.anasayfa, name="anasayfa"),
     path('notlar/',views.notlarım,name='notlarim'),
     path('tekce/',views.tekce,name='tekce'),
     path('omar/',views.omar,name='omar'),
